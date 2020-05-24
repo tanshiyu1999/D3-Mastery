@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=ysG9j4_Uw_g&list=PL9yYRbwpkykvOXrZumtZWbuaXWHvjD8gi&index=3
+
+Learning points.
+- SVG is scalable vector diagram
+- SVG can create many html elements like rect, circle, lines, path
+- SVG shapes(elements) has several properties
+- SVG is super cool!
