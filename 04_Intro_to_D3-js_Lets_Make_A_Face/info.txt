@@ -9,4 +9,6 @@ Learning points
 - How to group each and every D3 element clearly and concisely thus avoid rewriting code
 - For transition(), the transition to happen, the transition is based on the attr mentioned on top
 - D3 arc https://github.com/d3/d3-shape/blob/v1.3.7/README.md#arcs, still do not understand all the start angle etc.
-- 
+- Positioning of shapes within the SVG canvas
+- Transform & Translate Fully
+- God D3 is cool!
