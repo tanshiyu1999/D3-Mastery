@@ -12,18 +12,14 @@ const render = (data) => {
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.right
 
-
   const xScale = d3.scaleLinear()
     .domain([0, d3.max(data, xValue)])
     .range([0, innerWidth])
-
 
   const yScale = d3.scaleBand()
     .domain(data.map(yValue))
     .range([0, innerHeight])
     .padding(0.2);
-
-
 
   const g = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);

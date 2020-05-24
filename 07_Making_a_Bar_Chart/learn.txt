@@ -1,7 +1,6 @@
+https://www.youtube.com/watch?v=NlBt-7PuaLk&list=PL9yYRbwpkykvOXrZumtZWbuaXWHvjD8gi&index=7
 
-
-
-
+- Absolutely beautiful code!
 - How to import csv and use d3 to unpack csv
 - Linear Scale, map domain(data space) within range(screen space)
 - D3 Data join. Harder concept to grasp
