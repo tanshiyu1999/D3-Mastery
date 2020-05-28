@@ -10,7 +10,7 @@ const render = data => {
   //create the formatting, margins etc
   const height = +svg.attr('height');
   const width = +svg.attr('width');
-  const margin = {top: 30, right: 50, bottom: 30, left: 100};
+  const margin = {top: 40, right: 50, bottom: 30, left: 100};
   const innerWidth = width - margin.left - margin.right;
   const innerHeight = height - margin.top - margin.bottom;
 
@@ -40,17 +40,17 @@ const render = data => {
     .padding(0.2);
 
   //code for axes
+    //Define the tick lines, and then extending this garbage
+    const xAxis = d3.axisBottom(xScale)
+      .tickSize(-innerHeight)
+
   const yAxis = g1.append('g').call(d3.axisLeft(yScale));
-  const xAxis = g1.append('g').call(d3.axisBottom(xScale))
+  const xAxisG = g1.append('g').call(xAxis)
     .attr("transform", `translate(0, ${innerHeight})`);
 
   //Remove the ticks on the y-axis
   yAxis.selectAll('.domain, .tick line')
     .remove();
-
-  //Extend the tick with the x-axis
-  xAxis.selectAll('.tick line')
-    .attr('')
 
   //code for the rectangle
   const rect = g1.selectAll('rect')

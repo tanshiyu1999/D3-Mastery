@@ -11,3 +11,7 @@ svg rect {
 svg g g g text{
   font-size: 20px;
 }
+
+.title {
+  font-size: 30px;
+}
