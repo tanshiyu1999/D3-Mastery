@@ -1,5 +1,0 @@
-
-
-- Formatting the numbers on the Axes, still don't understand tickFormat very well
-- Still do not understand how to change 'G' to 'B'
-- Good color guidelines https://github.com/amycesal/dataviz-style-guide/blob/master/Sunlight-StyleGuide-DataViz.pdf
