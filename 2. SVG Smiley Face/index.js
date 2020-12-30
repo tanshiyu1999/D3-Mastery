@@ -56,6 +56,11 @@ const mouth = g.append('path')
 const eyebrowsGroup = svg.append('g')
   .attr('transform', 'translate(0,120)');
 
+// look at code below, since we are appending left and right eyebrows, if we want to transition the eyebrowsGroup
+// which contains both the eyebrows, we will need to separate them
+eyebrowsGroup
+  .transition().duration(2000)
+
 // creating an eyebrow
 // transition() can create animation
 // duration pass in miniseconds
